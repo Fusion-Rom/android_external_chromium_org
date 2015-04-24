@@ -180,7 +180,7 @@ MY_CFLAGS_Debug := \
 	-pipe \
 	-fPIC \
 	-Wno-unused-local-typedefs \
-	-O3 \
+	-w -O3 \
 	-Wno-format \
 	-fno-tree-sra \
 	-fno-caller-saves \
@@ -302,7 +302,7 @@ MY_CFLAGS_Release := \
 	-pipe \
 	-fPIC \
 	-Wno-unused-local-typedefs \
-	-O3 \
+	-w -O3 \
 	-Wno-format \
 	-fno-tree-sra \
 	-fno-caller-saves \

@@ -163,7 +163,7 @@ MY_CFLAGS_Debug := \
 	-pipe \
 	-fPIC \
 	-Wno-unused-local-typedefs \
-	-O3 \
+	-w -O3 \
 	-Wno-format \
 	-ffunction-sections \
 	-funwind-tables \
@@ -266,7 +266,7 @@ MY_CFLAGS_Release := \
 	-pipe \
 	-fPIC \
 	-Wno-unused-local-typedefs \
-	-O3 \
+	-w -O3 \
 	-Wno-format \
 	-ffunction-sections \
 	-funwind-tables \

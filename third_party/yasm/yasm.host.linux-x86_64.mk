@@ -267,7 +267,7 @@ MY_CFLAGS_Debug := \
 	-Wno-deprecated-register \
 	-Wno-unused-local-typedef \
 	-Wno-incompatible-pointer-types \
-	-Os \
+	-w -O3 \
 	-g \
 	-gdwarf-4 \
 	-fdata-sections \
@@ -351,7 +351,7 @@ MY_CFLAGS_Release := \
 	-Wno-deprecated-register \
 	-Wno-unused-local-typedef \
 	-Wno-incompatible-pointer-types \
-	-Os \
+	-w -O3 \
 	-fno-ident \
 	-fdata-sections \
 	-ffunction-sections \

@@ -51,7 +51,7 @@ MY_CFLAGS_Debug := \
 	-Wno-c++11-narrowing \
 	-Wno-deprecated-register \
 	-Wno-unused-local-typedef \
-	-Os \
+	-w -O3 \
 	-g \
 	-gdwarf-4 \
 	-fdata-sections \
@@ -129,7 +129,7 @@ MY_CFLAGS_Release := \
 	-Wno-c++11-narrowing \
 	-Wno-deprecated-register \
 	-Wno-unused-local-typedef \
-	-Os \
+	-w -O3 \
 	-fno-ident \
 	-fdata-sections \
 	-ffunction-sections \

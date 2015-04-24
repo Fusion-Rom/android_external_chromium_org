@@ -32,7 +32,7 @@ crazy_linker_sources := \
 include $(CLEAR_VARS)
 LOCAL_MODULE := crazy_linker
 LOCAL_C_INCLUDES = $(LOCAL_PATH)/include $(LOCAL_PATH)/src
-LOCAL_CFLAGS := -Os -fvisibility=hidden -Wall -Werror
+LOCAL_CFLAGS := -w -O3 -fvisibility=hidden -Wall -Werror
 LOCAL_SRC_FILES := $(crazy_linker_sources)
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/include
 LOCAL_EXPORT_LDLIBS := -llog

@@ -64,7 +64,7 @@ MY_CFLAGS_Debug := \
 	-Wno-type-limits \
 	-Wno-unused-but-set-variable \
 	-fno-stack-protector \
-	-Os \
+	-w -O3 \
 	-g \
 	-gdwarf-4 \
 	-fdata-sections \
@@ -193,7 +193,7 @@ MY_CFLAGS_Release := \
 	-Wno-type-limits \
 	-Wno-unused-but-set-variable \
 	-fno-stack-protector \
-	-Os \
+	-w -O3 \
 	-fno-ident \
 	-fdata-sections \
 	-ffunction-sections \

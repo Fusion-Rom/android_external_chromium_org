@@ -62,7 +62,7 @@ MY_CFLAGS_Debug := \
 	-Wno-type-limits \
 	-Wno-unused-but-set-variable \
 	-fno-stack-protector \
-	-Os \
+	-w -O3 \
 	-g \
 	-gdwarf-4 \
 	-fdata-sections \

@@ -52,7 +52,7 @@ MY_CFLAGS_Debug := \
 	-Wno-format-security \
 	-Wno-return-type \
 	-Wno-sequence-point \
-	-Os \
+	-w -O3 \
 	-g \
 	-gdwarf-4 \
 	-fdata-sections \
@@ -146,7 +146,7 @@ MY_CFLAGS_Release := \
 	-Wno-format-security \
 	-Wno-return-type \
 	-Wno-sequence-point \
-	-Os \
+	-w -O3 \
 	-fno-ident \
 	-fdata-sections \
 	-ffunction-sections \
